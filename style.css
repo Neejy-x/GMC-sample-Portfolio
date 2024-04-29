@@ -1,0 +1,182 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.navbar-cont{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 250px;
+  padding-right: 150px;
+  padding-top: 10px;
+}
+.nav-item a{
+  color:green!important;
+  font-weight: 600;
+}
+.main-nav{
+  width: 50%;
+}
+.main-title a{
+  color: green;
+  text-decoration: none;
+  font-size: 45px;
+}
+.navbar-btn{
+  height: 80px;
+}
+.hero-social button{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  
+}
+
+.hero-social{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cv-btn{
+  background-color: green !important;
+  border: 2px solid green !important;
+  font-weight: 400 !important;
+  border-radius: 0 !important;
+  width: 200px;
+  height: 50px;
+  transition: 0.6s !important;
+}
+
+.cv-btn:hover{
+  background-color: white !important;
+  color: green !important;
+  border: 2px solid green !important;
+}
+.hero-btn{
+  width: 200px;
+  height: 50px;
+  border: 2px solid green;
+  background-color: rgb(255, 255, 255);
+  margin-right: 30px;
+  font-weight: 400;
+  transition: 0.6s;
+}
+/* .hero-btn:hover{
+background-color: green;
+border: none;
+color: white;
+} */
+
+.hero-lower{
+  display: flex;
+}
+
+.hero{
+  width: 100%;
+  height: 550px;
+  border: 0.1px solid white;
+ background-color: rgba(0, 0, 0, 0.374);
+ background-image: url(/131332-abstract-green-and-white-polygon-pattern-background-vector-art.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.hero-main{
+  margin-top: 200px;
+  margin-left: 80px;
+  width: 50%;
+}
+.hero-aside img{
+  width: 450px;
+  margin-top: 15px;
+  margin-left: 150px;
+}
+.hero-text h2{
+font-size: 60px;
+font-family: "Signika", sans-serif;
+font-style: italic;
+color: white;
+text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+.hero-text h4{
+  font-family: "Handlee", cursive;
+  font-weight: 700;
+  font-style: italic;
+  color: white;
+text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+
+}
+.hero-lower button{
+  font-family: "Signika", sans-serif;
+
+}
+
+nav h2 a, ul li a{
+font-family: "Signika", sans-serif !important;
+font-style: italic;
+}
+.services{
+  text-align: center;
+  padding-top: 50px;
+  
+}
+
+.services h2{
+  font-family: "Signika", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  color: green;
+}
+
+.services h5{
+  font-family: "Handlee", cursive;
+  font-weight: 500;
+  font-size: 25px;
+ 
+  text-shadow: 1px 1px 2px rgba(4, 255, 104, 0.59);
+
+}
+
+.card-container{
+  display: flex;
+  padding: 10px 20px 0 100px;
+  margin-left: 100px;
+}
+
+.crd{
+  border-radius: 15px;
+  margin: 30px;
+  height: 300px;
+  width: 270px;
+  padding-top: 50px;
+  border: 3px solid green;
+  text-shadow: 1px 1px 2px rgba(4, 255, 104, 0.59);
+  box-shadow: 2px 2px 4px rgba(4, 255, 104, 0.59);
+}
+
+/* .crd:hover{
+  background-color: green;
+  border: none;
+  text-shadow: 1px 1px 2px rgba(239, 244, 241, 0.59);
+} */
+.material-symbols-outlined{
+  color: green !important;
+  font-size: 40px !important;
+}
+
+.material-symbols-outlined:hover{
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.639);
+}
+
+.crd h3{
+  font-family: "Signika", sans-serif;
+  /* color: green; */
+  font-size: 23px;
+  margin: 20px 0;
+}
+
+.crd p{
+  /* color: green; */
+  font-family: "Handlee", cursive;
+
+}

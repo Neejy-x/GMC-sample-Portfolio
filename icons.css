@@ -1,0 +1,163 @@
+.profile.icon {
+  color: #000;
+  position: absolute;
+  margin-left: 3px;
+  margin-top: 11px;
+  width: 14px;
+  height: 6px;
+  border-left: solid 1px currentColor;
+  border-right: solid 1px currentColor;
+  border-top: solid 1px currentColor;
+  border-bottom: solid 1px transparent;
+  border-radius: 6px 6px 0 0;
+}
+
+.profile.icon:before {
+  content: '';
+  position: absolute;
+  left: 2px;
+  top: -10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: solid 1px currentColor;
+}
+
+.signal.icon {
+  color: #000;
+  position: absolute;
+  margin-left: 7px;
+  margin-top: 13px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border-top: solid 1px currentColor;
+  border-right: solid 1px transparent;
+  border-bottom: solid 1px transparent;
+  border-left: solid 1px transparent;
+}
+
+.signal.icon:before {
+  content: '';
+  position: absolute;
+  left: -5px;
+  top: -5px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border-top: solid 1px currentColor;
+  border-right: solid 1px transparent;
+  border-bottom: solid 1px transparent;
+  border-left: solid 1px transparent;
+}
+
+.signal.icon:after {
+  content: '';
+  position: absolute;
+  left: -9px;
+  top: -9px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border-top: solid 1px currentColor;
+  border-right: solid 1px transparent;
+  border-bottom: solid 1px transparent;
+  border-left: solid 1px transparent;
+}
+
+.heart.icon {
+  color: #000;
+  position: absolute;
+  margin-top: 6px;
+  margin-left: 5px;
+  width: 9px;
+  height: 9px;
+  border-left: solid 1px currentColor;
+  border-bottom: solid 1px currentColor;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.heart.icon:before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -1px;
+  width: 8px;
+  height: 5px;
+  border-radius: 5px 5px 0 0;
+  border-top: solid 1px currentColor;
+  border-left: solid 1px currentColor;
+  border-right: solid 1px currentColor;
+}
+
+.heart.icon:after {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 8px;
+  width: 5px;
+  height: 8px;
+  border-radius: 0 5px 5px 0;
+  border-top: solid 1px currentColor;
+  border-right: solid 1px currentColor;
+  border-bottom: solid 1px currentColor;
+}
+
+.tv.icon {
+  color: #000;
+  position: absolute;
+  margin-left: 2px;
+  margin-top: 3px;
+  width: 15px;
+  height: 10px;
+  border-radius: 2px;
+  border: solid 1px currentColor;
+}
+
+.tv.icon:before {
+  content: '';
+  position: absolute;
+  left: 7px;
+  bottom: -4px;
+  width: 1px;
+  height: 3px;
+  background-color: currentColor;
+}
+
+.tv.icon:after {
+  content: '';
+  position: absolute;
+  left: 4px;
+  bottom: -4px;
+  width: 7px;
+  height: 1px;
+  background-color: currentColor;
+}
+
+.bookmark.icon {
+  color: #000;
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 3px;
+  width: 10px;
+  height: 15px;
+  border-radius: 1px 1px 0 0;
+  border-top: solid 1px currentColor;
+  border-left: solid 1px currentColor;
+  border-right: solid 1px currentColor;
+}
+
+.bookmark.icon:before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 1px;
+  width: 7px;
+  height: 7px;
+  border-top: solid 1px currentColor;
+  border-left: solid 1px currentColor;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
